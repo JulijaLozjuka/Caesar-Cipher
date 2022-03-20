@@ -5,8 +5,10 @@ public class Main {
         CaesarEncoder caesarEncoder = new CaesarEncoder();
         caesarEncoder.encryptWithKey(5,"C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile.txt",
                 "C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile2.txt");
-        caesarEncoder.decryptBruteForce("C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile2.txt",
-                "C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile3.txt");
+//        caesarEncoder.decryptBruteForce("C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile2.txt",
+//                "C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile3.txt");
+        caesarEncoder.decryptStatisticMethod("C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile2.txt",
+                "C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFile3.txt","C:\\Users\\jinxt\\OneDrive\\Desktop\\TestFileExample.txt");
     }
 
 }
