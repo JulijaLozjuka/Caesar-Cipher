@@ -1,4 +1,4 @@
-package com.javarush.cryptoanalyser;
+package cryptoanalyser;
 
 import java.util.List;
 

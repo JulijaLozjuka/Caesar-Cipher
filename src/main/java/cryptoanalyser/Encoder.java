@@ -1,4 +1,4 @@
-package com.javarush.cryptoanalyser;
+package cryptoanalyser;
 
 import org.apache.commons.math3.stat.inference.ChiSquareTest;
 

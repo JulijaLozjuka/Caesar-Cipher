@@ -1,4 +1,4 @@
-package com.javarush.cryptoanalyser;
+package cryptoanalyser;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

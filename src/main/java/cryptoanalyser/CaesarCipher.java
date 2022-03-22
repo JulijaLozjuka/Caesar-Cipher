@@ -1,4 +1,4 @@
-package com.javarush.cryptoanalyser;
+package cryptoanalyser;
 
 public class CaesarCipher {
     static final String ENCRYPTION = "file encryption with known key";
