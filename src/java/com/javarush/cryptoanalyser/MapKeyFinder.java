@@ -12,6 +12,9 @@ public class MapKeyFinder {
                 bestKey = pairs.getKey();
             }
         }
+        if (maxWordCount==0){
+            return -1;
+        }
         return bestKey;
     }
 
