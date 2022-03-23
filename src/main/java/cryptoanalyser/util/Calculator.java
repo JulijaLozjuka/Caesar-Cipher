@@ -1,4 +1,6 @@
-package cryptoanalyser;
+package cryptoanalyser.util;
+
+import cryptoanalyser.data.CaesarData;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,6 +9,7 @@ public class Calculator {
 
     public static int calculateMatchingWordCount(List<String> linesFromFile) {
         int matchingWordCount = 0;
+
         for (String line : linesFromFile) {
             String[] splitDecryptedStrings = line.split(" ");
             for (String decryptedWord : splitDecryptedStrings) {
@@ -30,7 +33,6 @@ public class Calculator {
         }
         return realCharFrequencies;
     }
-
 
     public static double[] calculateCharProbability(List<String> linesFromFile){
         int totalCharCount = linesFromFile.stream().map(String::length).reduce(0,Integer::sum);

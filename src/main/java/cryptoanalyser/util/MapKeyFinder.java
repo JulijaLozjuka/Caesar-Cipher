@@ -1,4 +1,4 @@
-package cryptoanalyser;
+package cryptoanalyser.util;
 
 import java.util.Map;
 

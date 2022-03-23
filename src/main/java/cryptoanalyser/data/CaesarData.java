@@ -1,4 +1,4 @@
-package cryptoanalyser;
+package cryptoanalyser.data;
 
 import java.util.List;
 
